@@ -21,5 +21,5 @@ class Colors:
         return self
 
 
-with Colors('caca') as col:
+with Colors('red') as col:
     print(f'printed in {col.lower()}')
